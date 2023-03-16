@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Equinox Clothing Brand | Checkout Complete Page</title>
+		<link rel="stylesheet" href="external.css">
+
+	<style>
+		
+		h1 {
+			position: relative;
+			width: inherit;
+			height: auto;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			text-align: center;
+			padding-top: 50px;
+		}
+
+		#red {
+			color: red;
+			background-color: yellow;
+			margin-left: 160px;
+			margin-right: 160px;
+		}
+
+			#order-details {
+				border-width: 5px;
+				box-shadow: -1em 0em 5em magenta;
+				position: relative;
+				background-color: cyan;
+				margin-left: 450px;
+				margin-right: 450px;
+				border-radius: 40px;
+				text-align: center;
+				font-weight: bold;
+				padding-top: 2px;
+				padding-bottom: 2px;
+			}
+
+			#aviators {
+				position: relative;
+				width: 130px;
+				left: -215px;
+				top: -140px;
+			}
+
+			.transition-aviator {
+				transition: all 2s;
+			}
+
+			#aviators:hover {
+				transform: translateY(40px);
+			}
+
+			.transition-stars {
+				transition: all 2s;
+			}
+
+			.moon {
+				transition: all 3s;
+			}
+
+			#star1 {
+    			position: relative;
+    			left: 1070px;
+				bottom: 360px;
+				width: 100px;
+				height: 100px;
+			}
+
+			#star2 {
+				position: relative;
+				left: 1050px;
+				bottom: 300px;
+				width: 125px;
+				height: 125px;
+			}
+
+			#star3 {
+				position: relative;
+				left: 910px;
+				bottom: 400px;
+				width: 150px;
+				height: 150px;
+			}
+
+			#moon {
+				position: relative;
+				right: 280px;
+				bottom: 260px;
+				width: 250px;
+				height: 250px;
+
+			}
+
+			#star1:hover {
+				transform: rotate(720deg);
+
+			}
+
+			#star2:hover {
+				transform: rotate(720deg);
+			}
+
+			#star3:hover {
+				transform: rotate(720deg);
+			}
+
+			#moon:hover {
+				transform: scale(0);
+			}		
+
+			#person {
+				position: relative;
+				width: 230px;
+				height: 280px;
+				left: -30px;
+				bottom: -52px;
+			}
+
+			/* Progress Bar Adjustments */
+			#alt-cont{
+				width: 400px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.container {
+   				width: 100%;
+    			max-width: 960px;
+    			padding: 0 15px;
+   				margin: 150px auto;
+			}
+
+	</style>
+</head>
+
+	<body>
+		<video id="myvid" loop muted autoplay>
+				<source src="media/video-processed-2.mp4">
+			</video>
+			<div id="navbar">
+					<div id="nav">
+						<ul>
+							<li>
+								<a href="assignment_09.html#main">Home</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="SecondPage.html#">Tops</a>
+								<ul>
+									<li><a href="SecondPage.html">Hoodies</a></li>
+									<li><a href="SecondPage.html#text2">Jackets</a></li>
+									<li><a href="SecondPage.html#text3">Graphic-Tees</a></li>
+								</ul>
+							</li> 
+						</ul>
+						<ul>
+							<li>
+								<a href="ThirdPage.html">Bottoms</a>
+								<ul>
+									<li><a href="ThirdPage.html">Pants</a></li>
+									<li><a href="ThirdPage.html#text2">Shorts</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="FourthPage.html">Asscessories & Footwear</a>
+								<ul>
+									<li><a href="FourthPage.html">Jewlery</a></li>
+									<li><a href="FourthPage.html#text2">Hats</a></li>
+									<li><a href="FourthPage.html#text3">Shoes</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div> <!-- #nav -->
+			</div> <!-- #navbar -->
+			<div id="main">
+
+				<h1>Purchase Complete!</h1>
+
+				<div id="order-details">
+					<p><u>Order number: 01-09230-46775.</u></p>
+						<!-- start -->
+						<div id="alt-cont">
+							<div class="progressbar-item">
+							  <h4 class="progress-title">Progress Status</h4>
+							  		<div progress-bar data-percentage="100%">
+							    		<div class="progress-number">
+							      			<div class="progress-number-mark">
+							        			<span class="percent">100%</span>
+							        			<span class="down-arrow"></span>
+							      			</div>
+							    		</div>
+							   		 <div class="progress-bg">
+							      <div class="progress-fill"></div>
+							</div>
+						 </div>
+						</div>
+						</div><!-- #alt-cont -->
+						<!-- end -->
+					<div id="red"><p>Please wait 2-7 business days.</p></div>
+				</div> <!-- #order-details -->
+
+					<img class="transition-stars" id="star1" src="img/star.png" alt="Star">
+					<img class="transition-stars" id="star2" src="img/star.png" alt="Star">
+					<img class="transition-stars" id="star3" src="img/star.png" alt="Star">
+					<img class="moon" id="moon" src="img/moon.png" alt="moon">
+					
+					<img id="person" src="img/EquinoxPerson.png" alt="Equinox Person">
+					<img class="transition-aviator" id="aviators" src="img/AviatorSunglasses.png" alt="Aviator Sunglasses">
+
+			</div> <!-- #main -->
+
+		<div id="footer">
+			<p>Magen Mozeh &copy; 2022</p>
+		</div> <!-- #footer -->
+
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+		<link rel="stylesheet" href="bar/animated-counter-prograssbar.css" />
+		<script src="/path/to/cdn/jquery.min.js"></script>
+		<script src="bar/animated-counter-prograssbar.js"></script>
+	</body>
+
+</html>

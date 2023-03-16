@@ -1,0 +1,157 @@
+			img {
+				position: relative;
+				width: 250px;
+				height: 250px;
+				border-style: groove;
+				border-width: 10px;
+				border-color: magenta;
+				border-radius: 5px;
+				bottom: 20px;
+				left: 220px;
+				box-shadow: -1em 0em 5em magenta;
+			}
+
+
+			#buyer-info {
+				box-sizing: border-box;
+				border: solid;
+				border-width: 0.3px;
+				border-radius: 40px;
+				box-shadow: -1em 0em 5em magenta;
+				position: relative;
+				padding-left: 20px;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				margin-left: 400px;
+				margin-right: 400px;
+				margin-top: -515px;
+				margin-bottom: 60px;
+				bottom: -10px;
+				left: 250px;
+				background-color: cyan;
+				font-weight: bold;
+			}
+
+		.spacing-row {
+			margin: 10px;
+			display: flex;
+		}
+
+		.spacing-column {
+			width: 180px;
+		}
+
+		button {
+
+			background-color: lightyellow;
+			font-weight: bold;
+			border-radius: 10px;
+			padding: 10px 10px;
+		}
+
+		strong {
+			background-color: yellow;
+		}
+
+		#button1:hover {
+			background-color: magenta;
+
+		}
+
+		#button2:hover {
+			background-color: magenta;
+		}
+
+		.secure {
+			width: 28px;
+			margin-left: -70px;
+		}
+
+		.credit {
+			width: 155px;
+			margin-left: -23px;
+		}
+
+		.expire {
+			width: 44px;
+			margin-left: -58px;
+		}
+
+		.size {
+			margin-left: -120px;
+		}
+		
+		.first {
+			margin-left: -90px;
+		}
+
+		.last {
+			margin-left: -90px;
+		}
+
+		.emailing {
+			width: 190px;
+			margin-left: -60px;
+		}
+
+		.street {
+			margin-left: -67px;
+		}
+
+		.town {
+			margin-left: -94px;
+		}
+
+		.zip-code {
+			margin-left: -100px;
+		}
+
+		.countries {
+			margin-left: -110px;
+		}
+
+		.states {
+			margin-left: -135px;
+		}
+
+		.coupons {
+			width: 140px;
+			margin-left: -80px;
+		}
+
+		#card-options {
+			margin-left: -98px;
+		}
+
+		#item-description {
+			box-sizing: border-box;
+				border: solid;
+				border-width: 0.3px;
+				border-radius: 40px;
+				box-shadow: -1em 0em 5em magenta;
+				position: relative;
+				background-color: lightyellow;
+				margin-right: 1010px;
+				padding-left: 15px;
+				padding-right: 15px;
+				left: 135px;
+				bottom: 30px;
+		}
+
+		h1 {
+			position: relative;
+				width: inherit;
+				height: auto;
+				top: 0px;
+				left: 0px;
+				right: 0px;
+				bottom: 0px;
+				text-align: center;
+				padding-top: 50px;
+		}
+
+		h2 {
+			position: relative;
+				top: -30px;
+				right: -233px;
+		}

@@ -1,0 +1,171 @@
+@font-face {
+	font-family: "Neon";
+	src: url("fonts/NEON____.TTF");
+}
+body {		
+	margin: 0px;
+	background-color: magenta;
+}
+
+#main, #nav{
+	width: 	inherit;
+}
+
+h1 {
+	font-family: Neon;
+	font-size: 4em;
+	color: lightyellow;
+	text-shadow: 0px 0px 20px yellow;
+}
+
+h2 {
+	font-family: 'Libre Barcode 39 Text';
+	font-weight: normal;
+	font-size: 2em;
+	color: cyan;
+	text-shadow: 0px 0px 20px darkcyan;
+}
+
+.text {
+	position: absolute;
+	width: inherit;
+	height: auto;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+	padding-top: 150px;
+}
+video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	top: 52px;
+	min-width: 100%;
+	min-height: 100%;
+}
+/*Nav stuff*/
+#navbar {
+	box-shadow: 0px 3px 5px lightyellow;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: magenta;
+	z-index: 1;
+}
+
+#nav {
+	/*width: 600px; /*matches with content*/
+	margin-left: 0px;
+	margin-right: 0px;
+	display: flex;
+	z-index: 1;
+	justify-content: center;
+	border: 5px dotted cyan;
+}
+
+			#nav a {
+			/*	background-color: #FF0;*/
+				text-decoration: none;
+				/*
+
+				main:  600 px;
+				# of menu options: 4;
+
+
+				600px / 3 = 200px
+				*/
+				width: 200px;
+				height: 50px;
+				line-height: 50px;
+				display: block;
+				text-align: center;
+				font-weight: bold;
+				color: #333;
+			}
+
+			#nav a:hover, #nav #active-nav {
+				background-color: cyan;
+
+			}
+
+			#nav > ul {
+				display: flex;
+				align-items: flex-start;
+			}
+
+			#nav ul {
+				list-style: none;
+				margin: 0px;
+				padding: 0px;
+				z-index: 1;
+			}
+
+			#nav li {
+				background-color: magenta;
+				width: 200px;
+				text-align: center;
+				/*position: relative;*/
+			}
+
+			#nav ul ul {
+				display: none;
+				/*position: absolute;
+				top: 0px;
+				left: 200px;*/
+				position: absolute;
+			}
+
+			#nav li:hover > ul {
+				display: block;
+			}
+
+
+			#footer {
+				background-color: #000;
+				position: fixed;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				color: #FFF;
+				text-align: center;
+			}
+			html{
+				cursor: url('img/yheart.png'), auto;
+			}
+
+			.transition-stars {
+				transition: all 2s;
+			}
+
+			.transition-car {
+				transition: all 1s;
+			}
+
+			.moon {
+				transition: all 3s;
+			}
+			
+			#Drawing:hover {
+				transform: scale(2);
+			}
+
+			#star1:hover {
+				transform: rotate(720deg);
+
+			}
+
+			#star2:hover {
+				transform: rotate(720deg);
+
+			}
+
+			#star3:hover {
+				transform: rotate(720deg);
+			}
+
+#moon:hover {
+	transform: scale(0);
+}		
